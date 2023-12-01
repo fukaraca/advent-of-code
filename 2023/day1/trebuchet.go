@@ -9,7 +9,7 @@ import (
 var ln int
 
 func main() {
-	file, err := os.ReadFile("day1/d1data")
+	file, err := os.ReadFile("2023/day1/d1data")
 	if err != nil {
 		panic(err)
 	}
